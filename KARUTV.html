@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARU PROGRAMMING HUB TV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        video{
+            height: 200px;
+            width: 200px;
+            position: inherit;
+        }
+        body {
+			background-color: #007bff;
+			color: white;
+			padding-top: 70px;
+		}
+        h1{
+            color:chartreuse;
+            font-display: display;
+            font-weight: 800;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        footer {
+			background-color: #343a40;
+			color: white;
+			padding: 0px;
+			text-align: center;
+			position:absolute;
+			bottom: 0;
+			width: 100%;
+		}
+        .images{
+			width: 150px;
+			height: 150px;
+		}
+        image-slider {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-slider img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-100%);
+  opacity: 0;
+  animation-name: slide;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.image-slider img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.image-slider img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.image-slider img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.image-slider img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.image-slider img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.image-slider img:nth-child(6) {
+  animation-delay: 10s;
+}
+
+.image-slider img:nth-child(7) {
+  animation-delay: 12s;
+}
+
+.image-slider img:nth-child(8) {
+  animation-delay: 14s;
+}
+
+.image-slider img:nth-child(9) {
+  animation-delay: 16s;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateX(-100%);
+  }
+  8.33% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateX(0%);
+  }
+  33.33% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateX(0%);
+  }
+  41.67% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateX(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateX(-100%);
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>KARU TV</h1>
+    <marquee><h2>COMING SOON.STAY TUNED........</h2></marquee>
+   <div class="image-slider">
+			<img src="image1.jpg" alt="Image 1"class="images">
+			<img src="image2.jpg" alt="Image 2"class="images">
+			<img src="image3.jpg" alt="Image 3"class="images">
+			<img src="image4.jpg" alt="Image 1"class="images">
+			<img src="image5.jpg" alt="Image 2"class="images">
+			<img src="image6.jpg" alt="Image 3"class="images">
+			<img src="image7.jpg" alt="Image 1"class="images">
+			<img src="image8.jpg" alt="Image 2"class="images">
+			<img src="image9.jpg" alt="Image 3"class="images">
+		  </div>
+ 
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script></p>
+	</footer>
+    
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+ <footer>
+    <p>&copy; Karu Programming Hub 2023</p>
+<p>karuprogramminghub@gmail.com</p>
+</footer>
+</body>
+</html>
